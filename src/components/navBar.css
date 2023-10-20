@@ -1,0 +1,33 @@
+
+.links {
+    height: 60px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 0px;
+    color: black;
+    border-right: white 1px solid;
+}
+
+.links:last-child {
+    border: none;
+    box-shadow: none;
+    margin-left: auto;
+}
+
+.links:last-child:hover {
+    border: none;
+    box-shadow: none;
+    margin-left: auto;
+}
+
+.links:hover {
+    transition: 0.25s ease-in-out;
+    box-shadow: 5px 5px 5px black;
+}
+
+.navbarBody {
+    display: flex;
+    align-items: center;
+}

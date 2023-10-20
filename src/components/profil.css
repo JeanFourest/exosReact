@@ -1,0 +1,64 @@
+.image {
+    min-width: 20%;
+    min-height: 20%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    bottom: 80px;
+    border-radius: 100%;
+    border: 10px white solid;
+}
+
+.profil {
+    margin: 100px;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.texts {
+    margin-top: -100px;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.tags {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tag {
+    border: green solid 1px;
+    padding: 5px;
+    border-radius: 5px;
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    color: green;
+}
